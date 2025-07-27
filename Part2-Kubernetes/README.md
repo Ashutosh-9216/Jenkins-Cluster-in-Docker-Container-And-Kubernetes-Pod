@@ -115,7 +115,7 @@ pipeline {
     agent { label 'agent-node-2' }
 
     environment {
-        IMAGE_NAME = "sayantan2k21/demo-app"
+        IMAGE_NAME = "Ashutosh-9216/demo-app"
         IMAGE_TAG = "v1.0-${BUILD_NUMBER}"
         CONTAINER_NAME = "demo-app-container"
     }
